@@ -15,7 +15,6 @@ module.exports = {
     devServer: {
         contentBase: './public',
         port: 8081,
-        inline: false
     },
     optimization: {
         minimizer: [
