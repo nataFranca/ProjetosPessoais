@@ -1,0 +1,51 @@
+main {
+    grid-area: conteudo;
+    padding: 15px;
+}
+
+main div span {
+    display: grid;
+    grid-template-columns: 64px 1fr 55px;
+    grid-template-rows: 62px;
+    background-color:  rgb(41, 39, 39);
+    margin: 5px;
+    border-radius: 3px;
+}
+
+main div span a {
+    padding: 10px;
+    padding-top: 22px;
+}
+
+#atalhos {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+}
+
+.playlists {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.playlists a {
+    background-color: rgb(41, 39, 39);
+    height: 250px;
+    margin: 0px 10px;
+    text-align: left;
+    padding: 10px;
+}
+
+.btPlay {
+    height: 40px;
+    width: 40px;
+    padding-top: 11px;
+    /* display: none; */
+    z-index: 1000;
+    vertical-align: middle;
+}
+
+#atalhos a:hover {
+    background-color: rgb(70, 66, 66);
+}
